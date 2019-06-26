@@ -1,0 +1,33 @@
+http://localhost:3000/cursos
+
+###
+
+POST http://localhost:3000/cursos HTTP/1.1
+content-type: application/json
+
+{
+  "nome": "React Native"
+}
+
+###
+
+PUT http://localhost:3000/cursos/1 HTTP/1.1
+content-type: application/json
+
+{
+  "nome": "Angular 6"
+}
+
+###
+
+POST http://localhost:3000/cursos HTTP/1.1
+content-type: application/json
+
+{
+  "nome": "PHP"
+}
+
+
+###
+
+DELETE http://localhost:3000/cursos/5 HTTP/1.1
